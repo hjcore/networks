@@ -1,7 +1,8 @@
 # Start full node
 ## Download gotabitd binary
 ```
-curl https://github.com/gotabit/gotabit/releases/download/v1.0.1/gotabitd-v1.0.1-linux-amd64.tar.gz | sudo tar -xz -C /usr/bin
+curl https://github.com/gotabit/gotabit/releases/download/v1.0.1/gotabitd-v1.0.1-linux-amd64.tar.gz \
+| sudo tar -xz -C /usr/bin
 sudo mv /usr/bin/build/gotabitd-linux-amd64 /usr/bin/gotabitd
 # check binary version
 gotabitd version 
